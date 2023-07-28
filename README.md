@@ -1,4 +1,4 @@
-# devops-launchstore
+# Projeto devops-launchstore
 
 <h1 align="center">
   <img src="docker/.github/logo.png" alt="Launchstore" >
