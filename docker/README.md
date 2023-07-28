@@ -2,17 +2,6 @@
   <img src=".github/logo.png" alt="Launchstore" >
 </h1>
 
-<p>
-  <img src="https://img.shields.io/badge/made%20by-RAFAEL%20MARTINS-04cc5e?style=flat-square">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/martins-rafael/launchstore?color=04cc5e&style=flat-square">
-  <img alt="GitHub Top Language" src="https://img.shields.io/github/languages/top/martins-rafael/launchstore?color=04cc5e&style=flat-square">
-  <a href="https://opensource.org/licenses/MIT">
-    <img alt="License" src="https://img.shields.io/badge/license-MIT-04cc5e?style=flat-square">
-  </a>
-  
-</p>
-
-
 ## Tópicos 
 
 [Sobre a Launchstore](#sobre-a-launchstore)
@@ -138,18 +127,3 @@ $ npm start
 <br>
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](/LICENSE) para mais detalhes.
-
----
-
-Feito com :purple_heart: by [Rafael Martins](https://github.com/martins-rafael)
-
-[![Linkedin Badge](https://img.shields.io/badge/-Rafael%20Martins-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rafaeldcmartins/)](https://www.linkedin.com/in/rafaeldcmartins/) 
-[![Gmail Badge](https://img.shields.io/badge/-rafaeldcmartins@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rafaeldcmartins@gmail.com)](mailto:rafaeldcmartins@gmail.com)
-
-
-  "scripts": {
-    "debug": "nodemon --inspect=0.0.0.0:9229 src/server.js",
-    "start": "npm-run-all -p nodemon browsersync",
-    "nodemon": "nodemon src/server.js",
-    "browsersync": "browser-sync start --proxy http://localhost:5000 --files 'public, src/app/views'"
-  },
